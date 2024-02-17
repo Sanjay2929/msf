@@ -112,6 +112,35 @@
   .mySwiper .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: -70px !important;
   }
+
+  /* SCROLL BAR MODIFICATION  */
+
+  /* Width and height for the scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  /* Track (the background of the scrollbar) */
+  ::-webkit-scrollbar-track {
+    background: #cd530f10;
+  }
+
+  /* Handle (the draggable part of the scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background: #cd530f;
+  }
+  .select-wrapper {
+    position: relative;
+  }
+
+  
+  select {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    background-image: url("/assets/consultation-form/down-arrow.svg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+  }
   @media (max-width: 767.9px) {
     @keyframes slidenews {
       0% {
