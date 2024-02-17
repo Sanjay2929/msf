@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  @font-face {
+    font-family: Georgia;
+    src: url(/assets/fonts/Georgia.ttf);
+  }
+  .font-georgia {
+    font-family: Georgia;
+  }
+  .stewart_animation {
+    animation: stewarthero 10s linear infinite;
+  }
+  @keyframes stewarthero {
+    0% {
+      left: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      left: 100%;
+      transform: translateX(0);
+    }
+  }
+  .finaldi_animation {
+    animation: finaldihero 10s linear infinite;
+  }
+  @keyframes finaldihero {
+    0% {
+      right: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      right: 100%;
+      transform: translateX(0);
+    }
+  }
+  .hero_text_outline {
+    text-shadow: -3px -3px 0 #192335, 3px -3px 0 #192335, -3px 3px 0 #192335,
+      3px 3px 0 #192335;
+  }
+  /* WHY CHOOSE US SLIDER  */
+  .slick-current .choose_us_slide {
+    padding-bottom: 0 !important;
+  }
+  .slick-current .choose_us_slide p {
+    display: block !important;
+  }
+  .slick-current .choose_us_slide h3 {
+    color: white !important;
+    max-width: none !important;
+  }
+  .slick-current .choose_us_slide div {
+    background-color: #192335 !important;
+    gap: 19px;
+  }
+  .slick-current .choose_us_slide svg path {
+    fill: white;
+  }
+  slick-track {
+    display: flex !important;
+  }
+  .slick-slide {
+    height: inherit !important;
+    display: flex !important;
+  }
+  .slick-slide > div {
+    display: flex;
+  }
+  /* SEXUAL ABUSE  */
+  /* .sexual_abuse .slick-track {
+    margin-left: -25% !important;
+  } */
+  /* FIRMS NEWS  */
+  .news_animation {
+    animation: slidenews 10s linear infinite;
+  }
+  @keyframes slidenews {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-1147px));
+    }
+  }
+  .swiper-slide-active .active_slide {
+    opacity: 100% !important;
+  }
+  /* slider  */
+  .mySwiper.swiper {
+    overflow: visible !important;
+  }
+
+  /* SLIDER BULLETS */
+  .mySwiper .swiper-pagination-bullet {
+    width: 14px !important;
+    height: 14px !important;
+    display: inline-block;
+    background: #cd530f;
+    opacity: 37% !important;
+  }
+
+  .mySwiper .swiper-pagination .swiper-pagination-bullet-active {
+    width: 41px !important;
+    border-radius: 20px !important;
+    opacity: 100% !important;
+  }
+  .mySwiper .swiper-pagination {
+    position: absolute;
+  }
+  .mySwiper .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -70px !important;
+  }
+  @media (max-width: 767.9px) {
+    @keyframes slidenews {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(calc(-907px));
+      }
+    }
+  }
+  @media (max-width: 500px) {
+    .choose_us_slide {
+      padding-bottom: 0 !important;
+    }
+    .choose_us_slide p {
+      display: block !important;
+    }
+    .choose_us_slide h3 {
+      color: white !important;
+      max-width: none !important;
+    }
+    .choose_us_slide div {
+      background-color: #192335 !important;
+      gap: 19px;
+    }
+  }
+}
