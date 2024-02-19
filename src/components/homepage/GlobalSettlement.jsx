@@ -3,7 +3,7 @@ import { abuseCases } from "../common/Helper";
 
 const GlobalSettlement = () => {
   return (
-    <div className="bg-extraLightBlue pt-[64px]">
+    <div id="practice" className="bg-extraLightBlue pt-[64px]">
       <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto">
         <div className="max-w-[558px]">
           <h2 className="font-georgia lg:text-[40px] text-3xl font-normal text-bluePrimary md:pb-7 pb-4">
@@ -16,7 +16,7 @@ const GlobalSettlement = () => {
           </p>
         </div>
       </div>
-      <div className="bg-white md:mb-[154px] mb-20">
+      <div className="bg-white">
         <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto">
           <div className="py-9 flex gap-4 w-full relative flex-wrap justify-center">
             {abuseCases.map((value, index) => {

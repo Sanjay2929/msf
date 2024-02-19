@@ -4,13 +4,16 @@ import CustomButton from "../common/CustomButton";
 
 const AbuseCase = () => {
   return (
-    <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto md:py-[150px] py-24 flex md:flex-row flex-col items-center md:items-start relative z-10">
+    <div
+      id="attorneys"
+      className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto md:py-[150px] py-24 flex md:flex-row flex-col items-center md:items-start relative z-10"
+    >
       <div className="lg:min-w-[485px] sm:min-w-[370px]">
         <Image
           className="lg:w-[485px] sm:w-[370px] w-full md:max-w-[500px] max-w-[370px]"
           width={485}
           height={475}
-          src="/assets/abuse-case/girl-image.png"
+          src="/assets/abuse-case/girl-image.webp"
           alt="girl"
         />
       </div>

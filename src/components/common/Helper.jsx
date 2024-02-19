@@ -13,27 +13,27 @@ import {
 export const navLinks = [
   {
     title: "Home",
-    url: "/",
+    url: "#home",
   },
   {
     title: "About Us",
-    url: "/",
+    url: "#about",
   },
   {
     title: "Attorneys",
-    url: "/",
+    url: "#attorneys",
   },
   {
     title: "Practice Area",
-    url: "/",
+    url: "#practice",
   },
   {
     title: "Results",
-    url: "/",
+    url: "#results",
   },
   {
     title: "Media",
-    url: "/",
+    url: "#media",
   },
 ];
 
@@ -80,17 +80,17 @@ export const chooseUsExpertise = [
 // BLOG POST SLIDER
 export const blogPost = [
   {
-    image: "/assets/blog-post/post-1.png",
+    image: "/assets/blog-post/post-1.webp",
     title:
       "At Manly Stewart & Finaldi, our attorneys routinely represent sexual assault victims in high-profile national cases.",
   },
   {
-    image: "/assets/blog-post/post-2.png",
+    image: "/assets/blog-post/post-2.webp",
     title:
       "At Manly Stewart & Finaldi, our attorneys routinely represent sexual assault victims in high-profile national cases.",
   },
   {
-    image: "/assets/blog-post/post-3.png",
+    image: "/assets/blog-post/post-3.webp",
     title:
       "At Manly Stewart & Finaldi, our attorneys routinely represent sexual assault victims in high-profile national cases.",
   },

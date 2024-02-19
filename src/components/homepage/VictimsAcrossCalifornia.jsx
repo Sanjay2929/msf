@@ -58,7 +58,7 @@ const VictimsAcrossCalifornia = () => {
           className="w-full"
           width={542}
           height={753}
-          src="/assets/victims-across-california/lawyer.png"
+          src="/assets/victims-across-california/lawyer.webp"
           alt="lawyer"
         />
       </div>

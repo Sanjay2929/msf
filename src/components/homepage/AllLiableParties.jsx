@@ -10,7 +10,7 @@ const AllLiableParties = () => {
           className="w-full"
           width={542}
           height={764}
-          src="/assets/all-liable-parties/two-lawyer.png"
+          src="/assets/all-liable-parties/two-lawyer.webp"
           alt="lawyer"
         />
       </div>

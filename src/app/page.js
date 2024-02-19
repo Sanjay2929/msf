@@ -27,8 +27,8 @@ export default function Home() {
       <SexualAbuse />
       <AbuseCase />
       <GlobalSettlement />
-      <div className="relative">
-        <div className="w-full md:h-[43%] h-[27%] absolute top-1/2 left-0 -translate-y-1/2 bg-extraLightBlue z-0"></div>
+      <div id="results" className="relative md:pt-[154px] pt-20">
+        <div className="w-full md:h-[42%] h-[27%] absolute top-[55%] left-0 -translate-y-1/2 bg-extraLightBlue z-0"></div>
         <VictimsAcrossCalifornia />
         <AllLiableParties />
         <SexualAbuseLawyers />

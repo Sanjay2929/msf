@@ -4,7 +4,7 @@ import { newsMedia } from "../common/Helper";
 
 const FirmNews = () => {
   return (
-    <div className="relative">
+    <div id="media" className="relative">
       <h3 className="font-normal font-georgia text-[100px] sm:text-[150px] lg:text-[220px] text-bluePrimary absolute finaldi_animation top-10 z-0 opacity-[4%] leading-[110%]">
         News
       </h3>

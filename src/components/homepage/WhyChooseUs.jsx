@@ -59,7 +59,10 @@ const WhyChooseUs = () => {
   };
 
   return (
-    <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto lg:py-[154px] py-[100px] flex gap-[31px] lg:flex-row flex-col">
+    <div
+      id="about"
+      className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto lg:py-[154px] py-[100px] flex gap-[31px] lg:flex-row flex-col"
+    >
       <div className="lg:w-[260px]">
         <h2 className="font-georgia lg:text-[40px] text-3xl text-bluePrimary font-normal leading-[110%]">
           Why <span className="text-orange">Choose</span> Us

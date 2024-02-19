@@ -18,9 +18,9 @@ module.exports = {
         lightOrange: "#CD520F0A",
       },
       backgroundImage: {
-        "court-hammer": "url('/assets/sexual-abuse/court-hammer-bg.png')",
-        reception: "url('/assets/sexual-abuse/reception.png')",
-        "court-hammer2": "url('/assets/sexual-abuse/court-hammer-bg-2.png')",
+        "court-hammer": "url('/assets/sexual-abuse/court-hammer-bg.webp')",
+        reception: "url('/assets/sexual-abuse/reception.webp')",
+        "court-hammer2": "url('/assets/sexual-abuse/court-hammer-bg-2.webp')",
         "black-and-white":
           "linear-gradient(0deg, rgba(16,16,16,1) 50%, rgba(255,255,255,1) 50%)",
       },

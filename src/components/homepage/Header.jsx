@@ -9,7 +9,7 @@ import CustomButton from "../common/CustomButton";
 const Header = () => {
   const [showNavLinks, setShowNavLinks] = useState(false);
   return (
-    <div className="bg-lightGray fixed w-full z-50">
+    <div id="home" className="bg-lightGray fixed w-full z-50">
       <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto flex justify-between items-center py-3">
         <Link href="/" className="relative z-[51]">
           <Image

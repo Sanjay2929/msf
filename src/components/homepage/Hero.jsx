@@ -12,14 +12,14 @@ const Hero = () => {
             className="lg:w-[485px] sm:w-[370px] w-full max-w-[500px]"
             width={485}
             height={475}
-            src="/assets/hero/old-man.png"
+            src="/assets/hero/old-man.webp"
             alt="law-firm"
           />
           <Image
             className="lg:w-[331px] w-[250px] mt-[-122px]"
             width={331}
             height={408}
-            src="/assets/hero/law-weight.png"
+            src="/assets/hero/law-weight.webp"
             alt="law"
           />
         </div>
