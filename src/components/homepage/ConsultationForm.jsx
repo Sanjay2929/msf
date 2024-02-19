@@ -140,6 +140,7 @@ const ConsultationForm = () => {
               className="w-full md:py-[17px] py-3 md:px-4 px-3 bg-white text-base rounded font-georgia font-normal text-darkBlack text-opacity-20 outline-none border border-darkBlack border-opacity-20"
               id="selectOption"
               name="selectOption"
+              value={consultationForm.city} // Set the value prop here
               onChange={(e) =>
                 setConsultationForm({
                   ...consultationForm,
@@ -148,10 +149,9 @@ const ConsultationForm = () => {
               }
             >
               <option
-                selected
                 disabled
+                value="please_select" // Set value prop instead of selected
                 className="cursor-pointer w-full"
-                value="please_select"
               >
                 Please select
               </option>
