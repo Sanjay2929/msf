@@ -6,10 +6,10 @@ const Victim = () => {
   return (
     <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto pt-12 relative">
       <div className="max-w-[473px] relative z-10">
-        <h2 className="font-georgia font-normal text-[40px] text-bluePrimary leading-[120%]">
+        <h2 className="font-georgia font-normal md:text-[40px] text-3xl text-bluePrimary leading-[120%]">
           Were you a <span className="text-orange">victim</span> of
         </h2>
-        <p className="font-georgia font-normal text-base text-darkblack opacity-80 pt-7 pb-12">
+        <p className="font-georgia font-normal text-base text-darkblack opacity-80 sm:pt-7 pt-4 sm:pb-12 pb-8">
           At Manly Stewart, we understand the profound impact that sexual abuse
           can have on survivors. We are dedicated to providing compassionate and
           unwavering support to those who have endured such traumatic

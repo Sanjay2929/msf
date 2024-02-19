@@ -2,6 +2,7 @@
 export const Search = () => {
   return (
     <svg
+      className="md:w-6 w-4"
       width="24"
       height="24"
       viewBox="0 0 20 24"
@@ -19,6 +20,7 @@ export const Search = () => {
 export const Menu = () => {
   return (
     <svg
+      className="md:w-[35px] w-7"
       width="35"
       height="25"
       viewBox="0 0 35 25"

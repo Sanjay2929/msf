@@ -4,7 +4,7 @@ import CustomButton from "../common/CustomButton";
 
 const AbuseCase = () => {
   return (
-    <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto py-[150px] flex md:flex-row flex-col items-center md:items-start relative z-10">
+    <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto md:py-[150px] py-24 flex md:flex-row flex-col items-center md:items-start relative z-10">
       <div className="lg:min-w-[485px] sm:min-w-[370px]">
         <Image
           className="lg:w-[485px] sm:w-[370px] w-full md:max-w-[500px] max-w-[370px]"
@@ -24,7 +24,7 @@ const AbuseCase = () => {
             Us
           </h2>
         </div>
-        <p className="lg:pt-7 pt-3 font-georgia sm:text-base text-sm font-normal text-darkBlack lg:pb-12 pb-8 opacity-80">
+        <p className="lg:pt-7 sm:pt-3 font-georgia sm:text-base text-sm font-normal text-darkBlack lg:pb-12 pb-8 opacity-80">
           Give us a call regarding the potential referral of your sexual abuse
           case. We will provide, free-of charge, a thoughtful and reasoned
           evaluation of your potential or pending case.

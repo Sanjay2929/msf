@@ -51,7 +51,7 @@ const ConsultationForm = () => {
     });
   };
   return (
-    <div className="bg-[#FBF1EC] relative py-[62px]">
+    <div className="bg-[#FBF1EC] relative md:py-[62px] py-10 px-3">
       <Image
         className="absolute right-0 top-0 lg:w-[35%] w-1/2 object-cover h-full z-0"
         width={4900}
@@ -60,13 +60,13 @@ const ConsultationForm = () => {
         alt="consultant"
       />
       <div className="container lg:max-w-[970px] px-3 xl:px-0 mx-auto py-[54px] bg-white relative z-10">
-        <h2 className="text-center font-georgia font-normal text-2xl tracking-[7.2px] text-darkBlack pb-4 leading-[120%]">
+        <h2 className="text-center font-georgia font-normal  md:text-2xl text-xl tracking-[7.2px] text-darkBlack pb-4 leading-[120%]">
           GET UPDATED WITH US
         </h2>
         <h2 className="font-georgia lg:text-[40px] text-3xl text-bluePrimary font-normal text-center leading-[120%] pb-7  max-w-[463px] mx-auto">
           Request <span className="text-orange">Your Free</span> Consultation
         </h2>
-        <p className="text-darkBlack text-base font-normal font-georgia text-center max-w-[463px] mx-auto pb-9">
+        <p className="text-darkBlack sm:text-base text-sm font-normal font-georgia text-center max-w-[463px] mx-auto pb-9">
           Send us an email or{" "}
           <span className="text-orange">call (800) 700-8450</span> for answers
           to anything and everything you would like to know about your case.
@@ -137,7 +137,7 @@ const ConsultationForm = () => {
             </h3>
             <select
               required
-              className="w-full py-[17px] px-4 bg-white text-base rounded font-georgia font-normal text-darkBlack text-opacity-20 outline-none border border-darkBlack border-opacity-20"
+              className="w-full md:py-[17px] py-3 md:px-4 px-3 bg-white text-base rounded font-georgia font-normal text-darkBlack text-opacity-20 outline-none border border-darkBlack border-opacity-20"
               id="selectOption"
               name="selectOption"
               onChange={(e) =>
@@ -179,6 +179,7 @@ const ConsultationForm = () => {
             Reason for inquiry
           </label>
           <textarea
+            required
             name="inquiry"
             value={consultationForm.inquiry} // Corrected property name
             id="inquiry"
@@ -195,14 +196,14 @@ const ConsultationForm = () => {
           <h3 className="text-center text-orange text-xl font-georgia font-bold py-7 pb-2.5">
             Disclaimer*
           </h3>
-          <p className="font-georgia font-normal text-base text-center text-darkBlack opacity-80 pb-6">
+          <p className="font-georgia font-normal md:text-base text-sm text-center text-darkBlack opacity-80 pb-6">
             The use of this website or contact form to communicate with this
             firm or any of its attorneys/members does not establish an
             attorney-client relationship. Time-sensitive information should not
             be sent through this form. All information provided will be kept
             strictly confidential.
           </p>
-          <div className="flex justify-center items-center gap-2 pb-12">
+          <div className="flex justify-center items-center gap-2 md:pb-12 pb-8">
             <input
               required
               className="w-[18px] h-4 !rounded-none"
@@ -212,7 +213,7 @@ const ConsultationForm = () => {
             />
             <label
               htmlFor="disclaimer"
-              className="font-georgia font-normal text-base text-bluePrimary opacity-70"
+              className="font-georgia font-normal sm:text-base text-sm text-bluePrimary opacity-70"
             >
               I HAVE READ THIS DISCLAIMER
             </label>

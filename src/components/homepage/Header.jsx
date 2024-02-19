@@ -13,7 +13,7 @@ const Header = () => {
       <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto flex justify-between items-center py-3">
         <Link href="/" className="relative z-[51]">
           <Image
-            className=""
+            className="md:w-[56px] w-10"
             width={56}
             height={56}
             src="/assets/common/Logo.png"
@@ -39,7 +39,7 @@ const Header = () => {
           <CustomButton title="Free Consultation" style="block lg:hidden" />
         </div>
         <div className="flex items-center lg:gap-2 gap-4">
-          <div className="lg:w-[46px] lg:h-12 w-10 h-10 flex justify-center items-center border border-bluePrimary">
+          <div className="lg:w-[46px] lg:h-12 sm:w-10 sm:h-10 w-8 h-8 flex justify-center items-center border border-bluePrimary">
             <Search />
           </div>
           <CustomButton title="Free Consultation" style="lg:block hidden" />

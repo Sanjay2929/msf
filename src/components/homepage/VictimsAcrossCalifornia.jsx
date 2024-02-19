@@ -18,7 +18,7 @@ const VictimsAcrossCalifornia = () => {
           litigating various cases of sexual violence. This includes instances
           of:
         </p>
-        <ul className="flex flex-wrap gap-4 lg:justify-between justify-evenly experience_list pb-7">
+        <ul className="flex flex-wrap gap-4 lg:justify-between justify-evenly experience_list md:pb-7 pb-4">
           <li className="w-[239px] italic font-georgia font-normal text-base text-darkBlack text-opacity-80 flex gap-2 ">
             <CheckListOrange /> Clergy abuse
           </li>
@@ -48,7 +48,7 @@ const VictimsAcrossCalifornia = () => {
             <CheckListOrange /> Sexual abuse by doctors
           </li>
         </ul>
-        <p className=" font-georgia sm:text-base text-sm font-normal text-darkBlack lg:pb-8 pb-20 opacity-80 lg:text-start text-center">
+        <p className=" font-georgia sm:text-base text-sm font-normal text-darkBlack lg:pb-8 md:pb-20 pb-10 opacity-80 lg:text-start text-center">
           We are passionate about seeking justice for any and all survivors of
           sexual assault and abuse.
         </p>

@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="relative overflow-hidden">
       <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto py-[150px] flex md:flex-row flex-col relative z-10">
-        <div className="lg:min-w-[485px] min-w-[370px]">
+        <div className="lg:min-w-[485px] sm:min-w-[370px]">
           <Image
             className="lg:w-[485px] sm:w-[370px] w-full max-w-[500px]"
             width={485}
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
         <div className="md:pt-11 ps-5">
           <div className="lg:px-8 md:px-6 py-6 lg:py-10 bg-white max-w-[715px] md:ms-[-85px]">
-            <h1 className="font-georgia font-normal md:text-xl text-lg text-darkBlack tracking-[7px]">
+            <h1 className="font-georgia font-normal md:text-xl sm:text-lg text-base text-darkBlack tracking-[7px]">
               Manly Stewart & Finaldi
             </h1>
             <h2 className="font-georgia xl:text-[60px] lg:text-5xl sm:text-4xl text-3xl text-bluePrimary font-normal leading-[110%]">

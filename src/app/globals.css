@@ -133,7 +133,6 @@
     position: relative;
   }
 
-  
   select {
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
@@ -149,6 +148,9 @@
       100% {
         transform: translateX(calc(-907px));
       }
+    }
+    .mySwiper .swiper-pagination-bullets.swiper-pagination-horizontal {
+      bottom: -40px !important;
     }
   }
   @media (max-width: 500px) {

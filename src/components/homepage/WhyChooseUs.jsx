@@ -64,7 +64,7 @@ const WhyChooseUs = () => {
         <h2 className="font-georgia lg:text-[40px] text-3xl text-bluePrimary font-normal leading-[110%]">
           Why <span className="text-orange">Choose</span> Us
         </h2>
-        <p className="lg:pt-7 pt-3 font-georgia sm:text-base text-sm font-normal text-darkBlack lg:pb-12 pb-8 opacity-80 lg:max-w-[249px] max-w-[600px]">
+        <p className="lg:pt-7 pt-4 font-georgia sm:text-base text-sm font-normal text-darkBlack lg:pb-12 pb-8 opacity-80 lg:max-w-[249px] max-w-[600px]">
           Choose us for unparalleled expertise, exceptional service, and a
           commitment to exceeding your expectations. Our team is dedicated to
           delivering innovative solutions tailored to your needs, ensuring your

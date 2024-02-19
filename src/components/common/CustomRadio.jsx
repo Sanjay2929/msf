@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { radioList } from "./Helper";
 
 const CustomRadio = ({ setConsultationForm }) => {
-  const [selectedRadio, setSelectedRadio] = useState("");
+  const [selectedRadio, setSelectedRadio] = useState("Church");
 
   const radioChangeHandler = (event) => {
     const selectedValue = event.target.value;

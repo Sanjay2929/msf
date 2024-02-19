@@ -16,7 +16,7 @@ const CustomInput = (props) => {
         value={props.value}
         placeholder={props.placeholder}
         onChange={(e) => props.onChange(e.target.value)}
-        className="px-4 py-[17px] border border-darkBlack border-opacity-20 w-full outline-none placeholder:text-darkBlack placeholder:opacity-20 rounded"
+        className="md:px-4 px-3 md:py-[17px] py-3 border border-darkBlack border-opacity-20 w-full outline-none placeholder:text-darkBlack placeholder:opacity-20 rounded"
       />
     </div>
   );

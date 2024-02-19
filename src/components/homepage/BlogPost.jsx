@@ -56,10 +56,10 @@ const BlogPost = () => {
         blog
       </h3>
       <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto relative z-10">
-        <h2 className="text-center font-georgia font-normal text-2xl tracking-[7.2px] text-darkBlack pb-4 leading-[120%]">
+        <h2 className="text-center font-georgia font-normal md:text-2xl text-xl tracking-[7.2px] text-darkBlack pb-4 leading-[120%]">
           New Insights
         </h2>
-        <h2 className="font-georgia lg:text-[40px] text-3xl text-bluePrimary font-normal text-center leading-[120%] pb-12">
+        <h2 className="font-georgia lg:text-[40px] text-3xl text-bluePrimary font-normal text-center leading-[120%] md:pb-12 pb-8">
           More Recent <span className="text-orange">Blog Post</span>
         </h2>
         <div className="relative">
