@@ -7,7 +7,7 @@ const AbuseCase = () => {
     // Container for AbuseCase section
     <div
       id="attorneys"
-      className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto md:py-[150px] py-24 flex md:flex-row flex-col items-center md:items-start relative z-10"
+      className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto md:pt-[150px] pt-24 flex md:flex-row flex-col items-center md:items-start relative z-10"
     >
       {/* Image container */}
       <div className="lg:min-w-[485px] sm:min-w-[370px]" data-aos="zoom-in">

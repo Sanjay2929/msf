@@ -2,8 +2,8 @@
 export const Search = () => {
   return (
     <svg
-      className="md:w-6 w-4"
-      width="24"
+      className="md:w-5 w-4"
+      width="20"
       height="24"
       viewBox="0 0 20 20"
       fill="none"
