@@ -37,7 +37,7 @@ const Footer = () => {
                       <Link
                         key={index}
                         className="font-georgia font-normal text-sm text-white opacity-50 hover:opacity-100 duration-300 leading-4"
-                        href="/"
+                        href={value.url}
                       >
                         {value.title}
                       </Link>
