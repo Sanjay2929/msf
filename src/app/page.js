@@ -19,6 +19,7 @@ import GlobalSettlement from "@/components/homepage/GlobalSettlement";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import BackToTop from "@/components/common/BackToTop";
 
 export default function Home() {
   useEffect(() => {
@@ -29,6 +30,7 @@ export default function Home() {
   }, []);
   return (
     <div className="overflow-x-hidden">
+      <BackToTop />
       <Header />
       <Hero />
       <Victim />

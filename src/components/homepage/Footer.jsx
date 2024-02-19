@@ -54,12 +54,15 @@ const Footer = () => {
             <div className="flex gap-2.5 items-center">
               {socialmediaLinks.map((value, index) => {
                 return (
-                  <div
+                  <Link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={value.url}
                     key={index}
                     className="w-8 h-8 flex justify-center items-center bg-lightOrange group"
                   >
                     {value.icon}
-                  </div>
+                  </Link>
                 );
               })}
             </div>

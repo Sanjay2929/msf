@@ -10,6 +10,7 @@ export const Search = () => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
+        className="group-hover:fill-orange duration-300"
         d="M8 16C9.77498 15.9996 11.4988 15.4054 12.897 14.312L17.293 18.708L18.707 17.294L14.311 12.898C15.405 11.4997 15.9996 9.77544 16 8C16 3.589 12.411 0 8 0C3.589 0 0 3.589 0 8C0 12.411 3.589 16 8 16ZM8 2C11.309 2 14 4.691 14 8C14 11.309 11.309 14 8 14C4.691 14 2 11.309 2 8C2 4.691 4.691 2 8 2Z"
         fill="#192335"
       />
@@ -34,6 +35,25 @@ export const Menu = () => {
         strokeWidth="4"
         strokeMiterlimit="10"
         strokeLinecap="round"
+      />
+    </svg>
+  );
+};
+// CROSS ICON
+export const CrossMenu = () => {
+  return (
+    <svg
+      width="25"
+      height="25"
+      viewBox="0 0 26 26"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        className="group-hover:stroke-orange duration-300"
+        d="M25 1L1 25M1 1L25 25"
+        stroke="black"
+        strokeWidth="4"
       />
     </svg>
   );
@@ -317,6 +337,27 @@ export const CheckListOrange = (props) => {
         strokeLinecap="round"
         strokeLinejoin="round"
       />
+    </svg>
+  );
+};
+// BACK TO TOP ARROW ICON
+export const BacktoTopArrow = () => {
+  return (
+    <svg
+      className="group-hover:fill-orange duration-300"
+      width="22"
+      height="22"
+      fill="white"
+      viewBox="0 0 16 16"
+    >
+      <path
+        fillRule="evenodd"
+        d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"
+      ></path>
+      <path
+        fillRule="evenodd"
+        d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+      ></path>
     </svg>
   );
 };

@@ -143,23 +143,23 @@ export const footerLinks = [
 export const socialmediaLinks = [
   {
     icon: <FaceBook />,
-    url: "/",
+    url: "https://www.facebook.com",
   },
   {
     icon: <InstaGram />,
-    url: "/",
+    url: "https://www.instagram.com",
   },
   {
     icon: <Twitter />,
-    url: "/",
+    url: "https://www.twitter.com",
   },
   {
     icon: <LinkedIn />,
-    url: "/",
+    url: "https://www.linkedin.com",
   },
   {
     icon: <YouTube />,
-    url: "/",
+    url: "https://www.youtube.com",
   },
 ];
 
