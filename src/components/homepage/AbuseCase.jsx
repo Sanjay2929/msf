@@ -16,7 +16,7 @@ const AbuseCase = () => {
           className="lg:w-[485px] sm:w-[370px] w-full md:max-w-[500px] max-w-[370px]"
           width={485}
           height={475}
-          src="/assets/abuse-case/girl-image.webp"
+          src="/assets/images/abuse-case/girl-image.webp"
           alt="girl"
         />
       </div>

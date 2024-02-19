@@ -16,7 +16,7 @@ const Hero = () => {
             data-aos="zoom-in"
             width={485}
             height={475}
-            src="/assets/hero/old-man.webp"
+            src="/assets/images/hero/old-man.webp"
             alt="law-firm"
           />
           {/* IMAGE 2 */}
@@ -26,7 +26,7 @@ const Hero = () => {
             data-aos-delay="600"
             width={331}
             height={408}
-            src="/assets/hero/law-weight.webp"
+            src="/assets/images/hero/law-weight.webp"
             alt="law"
           />
         </div>

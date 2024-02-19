@@ -16,7 +16,7 @@ const Header = () => {
             className="md:w-[56px] w-10"
             width={56}
             height={56}
-            src="/assets/common/Logo.png"
+            src="/assets/images/common/Logo.png"
             alt="msf-logo"
           />
         </Link>

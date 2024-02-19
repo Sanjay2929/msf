@@ -38,7 +38,7 @@ const Victim = () => {
               className="w-full"
               width={458}
               height={564}
-              src="/assets/victim/victim-one.webp"
+              src="/assets/images/victim/victim-one.webp"
               alt="victim"
             />
             <div className="absolute bottom-0 left-0 flex w-full lg:p-[18px] p-3">
@@ -62,7 +62,7 @@ const Victim = () => {
               className="w-full"
               width={458}
               height={564}
-              src="/assets/victim/victim-two.webp"
+              src="/assets/images/victim/victim-two.webp"
               alt="victim-two"
             />
             <div className="absolute bottom-0 left-0 flex w-full lg:p-[18px] p-3">

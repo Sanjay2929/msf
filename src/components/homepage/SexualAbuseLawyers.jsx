@@ -43,7 +43,7 @@ const SexualAbuseLawyers = () => {
           width={598}
           height={630}
           className="w-full mt-[-82px]"
-          src="/assets/sexual-abuse-lawyers/men-women.webp"
+          src="/assets/images/sexual-abuse-lawyers/men-women.webp"
           alt="lawyers"
         />
       </div>

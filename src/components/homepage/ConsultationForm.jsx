@@ -56,7 +56,7 @@ const ConsultationForm = () => {
         className="absolute right-0 top-0 lg:w-[35%] w-1/2 object-cover h-full z-0"
         width={4900}
         height={1535}
-        src="/assets/consultation-form/old-man.webp"
+        src="/assets/images/consultation-form/old-man.webp"
         alt="consultant"
       />
       <div className="container lg:max-w-[970px] px-3 xl:px-0 mx-auto py-[54px] bg-white relative z-10">

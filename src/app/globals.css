@@ -137,7 +137,7 @@
   select {
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
-    background-image: url("/assets/consultation-form/down-arrow.svg");
+    background-image: url("/assets/images/consultation-form/down-arrow.svg");
     background-position: 100%;
     background-repeat: no-repeat;
   }

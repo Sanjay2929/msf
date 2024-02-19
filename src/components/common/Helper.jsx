@@ -80,17 +80,17 @@ export const chooseUsExpertise = [
 // BLOG POST SLIDER
 export const blogPost = [
   {
-    image: "/assets/blog-post/post-1.webp",
+    image: "/assets/images/blog-post/post-1.webp",
     title:
       "At Manly Stewart & Finaldi, our attorneys routinely represent sexual assault victims in high-profile national cases.",
   },
   {
-    image: "/assets/blog-post/post-2.webp",
+    image: "/assets/images/blog-post/post-2.webp",
     title:
       "At Manly Stewart & Finaldi, our attorneys routinely represent sexual assault victims in high-profile national cases.",
   },
   {
-    image: "/assets/blog-post/post-3.webp",
+    image: "/assets/images/blog-post/post-3.webp",
     title:
       "At Manly Stewart & Finaldi, our attorneys routinely represent sexual assault victims in high-profile national cases.",
   },
@@ -200,52 +200,52 @@ export const branchDetail = [
 // NEWS INSIGHT
 export const newsMedia = [
   {
-    image: "/assets/firm-news/time.png",
+    image: "/assets/images/firm-news/time.png",
     widht: "169",
     height: "53",
   },
   {
-    image: "/assets/firm-news/newyork-times.png",
+    image: "/assets/images/firm-news/newyork-times.png",
     widht: "141",
     height: "108",
   },
   {
-    image: "/assets/firm-news/today.png",
+    image: "/assets/images/firm-news/today.png",
     widht: "120",
     height: "91",
   },
   {
-    image: "/assets/firm-news/cbs-news.png",
+    image: "/assets/images/firm-news/cbs-news.png",
     widht: "88",
     height: "68",
   },
   {
-    image: "/assets/firm-news/wall-street.png",
+    image: "/assets/images/firm-news/wall-street.png",
     widht: "136",
     height: "69",
   },
   {
-    image: "/assets/firm-news/time.png",
+    image: "/assets/images/firm-news/time.png",
     widht: "169",
     height: "53",
   },
   {
-    image: "/assets/firm-news/newyork-times.png",
+    image: "/assets/images/firm-news/newyork-times.png",
     widht: "141",
     height: "108",
   },
   {
-    image: "/assets/firm-news/today.png",
+    image: "/assets/images/firm-news/today.png",
     widht: "120",
     height: "91",
   },
   {
-    image: "/assets/firm-news/cbs-news.png",
+    image: "/assets/images/firm-news/cbs-news.png",
     widht: "88",
     height: "68",
   },
   {
-    image: "/assets/firm-news/wall-street.png",
+    image: "/assets/images/firm-news/wall-street.png",
     widht: "136",
     height: "69",
   },
