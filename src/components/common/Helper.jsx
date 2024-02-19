@@ -255,18 +255,22 @@ export const abuseCases = [
   {
     cases: "$1B",
     description: "Roman Catholic Arch Diocese Sex Abuse Cases",
+    delay: "100",
   },
   {
     cases: "$852M",
     description: "USC Dr. George Tyndall Sex Abuse Cases",
+    delay: "300",
   },
   {
     cases: "$500M",
     description: "Michigan State University, Larry Nassar Sex Abuse Cases",
+    delay: "500",
   },
   {
     cases: "$216M",
     description: "Society of Jesus, Oregon, Sex Abusu Case",
+    delay: "700",
   },
 ];
 

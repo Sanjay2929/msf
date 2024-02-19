@@ -5,7 +5,10 @@ import Image from "next/image";
 const SexualAbuseLawyers = () => {
   return (
     <div className="container xl:max-w-[1140px] px-3 lg:pe- xl:px-0 mx-auto flex bg-bluePrimary mt-[82px] lg:justify-between items-center lg:items-start lg:flex-row flex-col-reverse relative z-10">
-      <div className="lg:w-1/2 pt-11 xl:ps-11 md:ps-4 md:pb-[62px] pb-10 md:pe-6 lg:max-w-[540px]">
+      <div
+        className="lg:w-1/2 pt-11 xl:ps-11 md:ps-4 md:pb-[62px] pb-10 md:pe-6 lg:max-w-[540px]"
+        data-aos="fade-right"
+      >
         <h2 className="font-georgia lg:text-[40px] text-3xl text-white font-normal leading-[110%] lg:text-start text-center">
           California <span className="text-orange">Sexual Abuse Lawyers</span>{" "}
           Who Are Here for You
@@ -35,7 +38,7 @@ const SexualAbuseLawyers = () => {
           <CustomButton title="Request A Free Consultation" style="" />
         </div>
       </div>
-      <div className="lg:w-auto max-w-[598px]">
+      <div className="lg:w-auto max-w-[598px]" data-aos="fade-left">
         <Image
           width={598}
           height={630}

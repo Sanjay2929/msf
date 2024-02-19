@@ -15,14 +15,17 @@ const SexualAbuse = () => {
   return (
     <div className="md:pt-[154px] pt-24 psm:b-[62px] pb-10">
       <div className="px-3 xl:px-0 mx-auto">
+        {/* Title */}
         <h2 className="text-center font-georgia font-normal md:text-2xl text-xl tracking-[7.2px] text-darkBlack pb-4 leading-[120%]">
           Why we are
         </h2>
+        {/* Subtitle */}
         <h2 className="font-georgia lg:text-[40px] text-3xl text-bluePrimary font-normal text-center leading-[120%] md:pb-12 pb-8">
           California <span className="text-orange"> Sexual Abuse</span>{" "}
           Attorneys
         </h2>
         <div className="max-w-[1620px] mx-auto">
+          {/* Swiper Component */}
           <Swiper
             effect={"coverflow"}
             grabCursor={true}
@@ -59,17 +62,21 @@ const SexualAbuse = () => {
               },
             }}
           >
+            {/* Map through sexualAbuse data */}
             {sexualAbuse.map((value, index) => {
               return (
                 <SwiperSlide key={index}>
                   <div
                     className={`md:py-11 py-8 sm:px-7 px-4 bg-cover bg-no-repeat ${value.background}`}
                   >
+                    {/* Content for each slide */}
                     <div className="opacity-0 active_slide duration-300">
+                      {/* Title */}
                       <h3 className="font-georgia font-bold md:text-xl text-lg text-white text-center max-w-[528px] pb-4 mx-auto">
                         Nationally Recognized for Representing Sexual Abuse
                         Survivors
                       </h3>
+                      {/* Paragraphs */}
                       <p className="font-georgia font-normal text-sm sm:text-base text-white text-center pb-4">
                         Manly, Stewart & Finaldi is regarded as America’s
                         leading law firm for sexual abuse cases. Our founder and
@@ -82,6 +89,7 @@ const SexualAbuse = () => {
                         Lawyers® and named to California’s Top 100 Attorneys by
                         the Los Angeles Daily Journal{" "}
                       </p>
+                      {/* More paragraphs */}
                       <p className="font-georgia font-normal text-sm sm:text-base text-white text-center pb-4">
                         Victim’s advocate and California sexual abuse lawyer
                         John Manly understands that sexual abuse is an ongoing
@@ -92,6 +100,7 @@ const SexualAbuse = () => {
                         representation to obtain justice for sexual abuse
                         survivors, harassment, and discrimination.
                       </p>
+                      {/* More paragraphs */}
                       <p className="font-georgia font-normal text-sm sm:text-base text-white text-center sm:pb-4">
                         Manly Stewart & Finaldi is currently investigating
                         alleged{" "}

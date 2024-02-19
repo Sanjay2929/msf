@@ -5,7 +5,7 @@ import { CheckListOrange } from "../common/Icons";
 const AllLiableParties = () => {
   return (
     <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto flex lg:flex-row flex-col lg:items-end xl:mt-[-180px] lg:-mt-12 md:pb-[85px] pb-10 items-center relative z-10">
-      <div className="lg:w-1/2 lg:pe-2 max-w-[542px]">
+      <div className="lg:w-1/2 lg:pe-2 max-w-[542px]" data-aos="fade-right">
         <Image
           className="w-full"
           width={542}
@@ -14,7 +14,10 @@ const AllLiableParties = () => {
           alt="lawyer"
         />
       </div>
-      <div className="lg:w-1/2 xl:ps-14 lg:ps-6 pt-8 lg:pt-0">
+      <div
+        className="lg:w-1/2 xl:ps-14 lg:ps-6 pt-8 lg:pt-0"
+        data-aos="fade-left"
+      >
         <h2 className="font-georgia lg:text-[40px] text-3xl text-bluePrimary font-normal leading-[110%] lg:text-start text-center">
           We Pursue <span className="text-orange">All Liable</span> Parties
         </h2>

@@ -5,7 +5,10 @@ const SupportAndJustice = () => {
   return (
     <div className="bg-black-and-white md:mt-[154px] mt-24 px-3">
       <div className="bg-skyblue container xl:max-w-[1140px] px-3 xl:px-0 mx-auto">
-        <div className="max-w-[519px] mx-auto md:py-[71.5px] py-10 flex flex-col items-center">
+        <div
+          className="max-w-[519px] mx-auto md:py-[71.5px] py-10 flex flex-col items-center"
+          data-aos="fade-up"
+        >
           <h2 className="pb-4 text-center font-georgia font-normal md:text-2xl text-xl   tracking-[7px] text-darkBlack">
             Report Sexual Abuse
           </h2>

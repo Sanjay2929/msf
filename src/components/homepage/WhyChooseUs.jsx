@@ -6,14 +6,18 @@ import Slider from "react-slick";
 
 const WhyChooseUs = () => {
   const sliderRef = useRef(null);
+
+  // FUNCTION TO HANDLE LEFT ARROW CLICK
   const handleLeftArrow = () => {
     sliderRef.current.slickPrev();
   };
-  // FUNCTION TO HENDLE RIGHT ARROW CLICK
+
+  // FUNCTION TO HANDLE RIGHT ARROW CLICK
   const handleRightArrow = () => {
     sliderRef.current.slickNext();
   };
-  //slider settings
+
+  // Slider settings
   var settings = {
     dots: false,
     arrows: false,
@@ -63,7 +67,8 @@ const WhyChooseUs = () => {
       id="about"
       className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto lg:py-[154px] py-[100px] flex gap-[31px] lg:flex-row flex-col"
     >
-      <div className="lg:w-[260px]">
+      {/* LEFT SECTION */}
+      <div className="lg:w-[260px]" data-aos="fade-right">
         <h2 className="font-georgia lg:text-[40px] text-3xl text-bluePrimary font-normal leading-[110%]">
           Why <span className="text-orange">Choose</span> Us
         </h2>
@@ -73,6 +78,7 @@ const WhyChooseUs = () => {
           delivering innovative solutions tailored to your needs, ensuring your
           satisfaction every step of the way.
         </p>
+        {/* ARROW BUTTONS */}
         <div className="flex gap-4">
           <div
             onClick={handleLeftArrow}
@@ -88,19 +94,23 @@ const WhyChooseUs = () => {
           </div>
         </div>
       </div>
+      {/* RIGHT SECTION */}
       <div className="relative lg:max-w-[calc(100%-300px)]">
         <div className="absolute top-0 left-[-11px] w-[600%] h-[205px] bg-extraLightBlue"></div>
+        {/* SLIDER */}
         <Slider
           {...settings}
           ref={sliderRef}
           className=" lg:h-[448px]  md:h-[420px] sm:h-[365px] h-[385px] max-[500px]:h-auto overflow-y-hidden"
         >
+          {/* MAP THROUGH EXPERTISE */}
           {chooseUsExpertise.map((value, index) => {
             return (
               <div
                 key={index}
                 className="px-1.5 lg:pt-[80px] pt-5 pb-[90px] choose_us_slide duration-300 h-full flex"
               >
+                {/* EXPERTISE CONTENT */}
                 <div className="border border-bluePrimary min-h-[253px] py-5 flex flex-col justify-center items-center gap-[30px] md:px-[23px] px-3 duration-300 h-full bg-white">
                   {value.icon}
                   <h3 className="text-center font-georgia text-xl font-bold leading-normal text-darkblack max-w-[174px]">

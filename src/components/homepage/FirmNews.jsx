@@ -24,9 +24,9 @@ const FirmNews = () => {
               return (
                 <div
                   key={index}
-                  className="md:w-[208px] w-[160px] sm:h-[120px] flex justify-center items-center"
+                  className="md:w-[208px] w-[160px] sm:h-[120px] flex justify-center items-center group"
                 >
-                  <Image
+                  <Image className="group-hover:-translate-y-3 duration-300"
                     width={value.widht}
                     height={value.height}
                     src={value.image}

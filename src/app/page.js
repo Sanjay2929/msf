@@ -1,3 +1,4 @@
+"use client";
 import AbuseCase from "@/components/homepage/AbuseCase";
 import Header from "@/components/homepage/Header";
 import Hero from "@/components/homepage/Hero";
@@ -15,8 +16,17 @@ import AllLiableParties from "@/components/homepage/AllLiableParties";
 import SexualAbuseLawyers from "@/components/homepage/SexualAbuseLawyers";
 import FirmNews from "@/components/homepage/FirmNews";
 import GlobalSettlement from "@/components/homepage/GlobalSettlement";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+      once: true,
+    });
+  }, []);
   return (
     <div className="overflow-x-hidden">
       <Header />
