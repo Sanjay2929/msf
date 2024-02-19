@@ -42,7 +42,7 @@ export const Menu = () => {
 // CROSS ICON
 export const CrossMenu = () => {
   return (
-    <svg
+    <svg className="w-[20px] md:w-[25px]"
       width="25"
       height="25"
       viewBox="0 0 26 26"

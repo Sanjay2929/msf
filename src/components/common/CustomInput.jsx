@@ -4,7 +4,7 @@ const CustomInput = (props) => {
   return (
     <div className="w-full">
       <label
-        className="font-georgia font-normal text-base text-darkblack block pb-2.5"
+        className="font-georgia font-normal sm:text-base text-sm text-darkblack block pb-2.5"
         htmlFor={props.id}
       >
         {props.label}

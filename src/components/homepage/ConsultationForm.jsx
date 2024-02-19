@@ -135,7 +135,7 @@ const ConsultationForm = () => {
             />
           </div>
           <div className="w-full py-[30px]">
-            <h3 className="font-georgia font-normal text-base text-darkblack block pb-2.5">
+            <h3 className="font-georgia font-normal sm:text-base text-sm text-darkblack block pb-2.5">
               City
             </h3>
             <select
@@ -170,13 +170,13 @@ const ConsultationForm = () => {
             </select>
           </div>
           <div className="custom-radio">
-            <h3 className="font-georgia font-bold text-xl text-darkBlack pb-6">
+            <h3 className="font-georgia font-bold sm:text-xl text-lg text-darkBlack pb-6">
               Institution Involved <span className="text-lightBlue">*</span>
             </h3>
             <CustomRadio setConsultationForm={setConsultationForm} />
           </div>
           <label
-            className="mt-3 font-georgia font-normal text-base text-darkblack block pb-2.5"
+            className="mt-3 font-georgia font-normal sm:text-base text-sm text-darkblack block pb-2.5"
             htmlFor="inquiry"
           >
             Reason for inquiry

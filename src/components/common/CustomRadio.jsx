@@ -40,7 +40,7 @@ const CustomRadio = ({ setConsultationForm }) => {
           ></label>
           <label
             htmlFor={option.value}
-            className="font-georgia font-base font-bold cursor-pointer text-darkBlack "
+            className="font-georgia sm:text-base text-sm font-base font-bold cursor-pointer text-darkBlack "
           >
             {option.label}
           </label>

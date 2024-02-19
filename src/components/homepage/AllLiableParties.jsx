@@ -29,21 +29,21 @@ const AllLiableParties = () => {
           includes:
         </p>
         <ul className="flex gap-4 flex-col experience_list md:pb-7 pb-4 max-w-[546px] mx-auto">
-          <li className="italic font-georgia font-normal text-base text-darkBlack text-opacity-80 flex gap-3 items-center ">
+          <li className="italic font-georgia font-normal text-sm sm:text-base text-darkBlack text-opacity-80 flex gap-3 items-center ">
             <CheckListOrange background="fill-bluePrimary" /> The abuser who was
             directly responsible
           </li>
-          <li className="italic font-georgia font-normal text-base text-darkBlack text-opacity-80 flex gap-3 items-center">
+          <li className="italic font-georgia font-normal text-sm sm:text-base text-darkBlack text-opacity-80 flex gap-3 items-center">
             <CheckListOrange background="fill-bluePrimary" /> Any coworkers,
             staff members, or others who knew of the abuse but did not come
             forward to report it
           </li>
-          <li className="italic font-georgia font-normal text-base text-darkBlack text-opacity-80 flex gap-3 items-center">
+          <li className="italic font-georgia font-normal text-sm sm:text-base text-darkBlack text-opacity-80 flex gap-3 items-center">
             <CheckListOrange background="fill-bluePrimary" /> Any larger
             organizations or institutions who failed to take action against the
             abuse
           </li>
-          <li className="italic font-georgia font-normal text-base text-darkBlack text-opacity-80 flex gap-3 items-center">
+          <li className="italic font-georgia font-normal text-sm sm:text-base text-darkBlack text-opacity-80 flex gap-3 items-center">
             <CheckListOrange background="fill-bluePrimary" /> Any potential law
             enforcement officials who exercised negligence in allowing the abuse
             to occur

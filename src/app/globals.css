@@ -143,6 +143,11 @@
   }
 
   /* MEDIA QUARIES  */
+  @media (max-width: 1023.9px) {
+    .custum_hidden {
+      overflow: hidden;
+    }
+  }
   @media (max-width: 767.9px) {
     @keyframes slidenews {
       0% {

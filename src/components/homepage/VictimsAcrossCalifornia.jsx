@@ -23,32 +23,32 @@ const VictimsAcrossCalifornia = () => {
         </p>
         {/* List of abuse cases */}
         <ul className="flex flex-wrap gap-4 lg:justify-between justify-evenly experience_list md:pb-7 pb-4">
-          <li className="w-[239px] italic font-georgia font-normal text-base text-darkBlack text-opacity-80 flex gap-2 ">
+          <li className="w-[239px] italic font-georgia font-normal text-sm sm:text-base text-darkBlack text-opacity-80 flex gap-2 ">
             <CheckListOrange /> Clergy abuse
           </li>
-          <li className="w-[239px] italic font-georgia font-normal text-base text-darkBlack text-opacity-80 flex gap-2">
+          <li className="w-[239px] italic font-georgia font-normal text-sm sm:text-base text-darkBlack text-opacity-80 flex gap-2">
             <CheckListOrange /> School abuse
           </li>
-          <li className="w-[239px] italic font-georgia font-normal text-base text-orange text-opacity-80 flex gap-2">
+          <li className="w-[239px] italic font-georgia font-normal text-sm sm:text-base text-orange text-opacity-80 flex gap-2">
             <CheckListOrange /> Abuse occurring in sports organizations
           </li>
-          <li className="w-[239px] italic font-georgia font-normal text-base text-darkBlack text-opacity-80 flex gap-2">
+          <li className="w-[239px] italic font-georgia font-normal text-sm sm:text-base text-darkBlack text-opacity-80 flex gap-2">
             <CheckListOrange /> Abuse at youth group and summer camps
           </li>
-          <li className="w-[239px] italic font-georgia font-normal text-base text-darkBlack text-opacity-80 flex gap-2">
+          <li className="w-[239px] italic font-georgia font-normal text-sm sm:text-base text-darkBlack text-opacity-80 flex gap-2">
             <CheckListOrange />
             <span>
               Cases of{" "}
               <span className="text-orange">online sexual harassment</span>
             </span>
           </li>
-          <li className="w-[239px] italic font-georgia font-normal text-base text-orange text-opacity-80 flex gap-2">
+          <li className="w-[239px] italic font-georgia font-normal text-sm sm:text-base text-orange text-opacity-80 flex gap-2">
             <CheckListOrange /> Elder sexual abuse in nursing homes
           </li>
-          <li className="w-[239px] italic font-georgia font-normal text-base text-darkBlack text-opacity-80 flex gap-2">
+          <li className="w-[239px] italic font-georgia font-normal text-sm sm:text-base text-darkBlack text-opacity-80 flex gap-2">
             <CheckListOrange /> Uber/Lyft sexual abuse
           </li>
-          <li className="w-[239px] italic font-georgia font-normal text-base text-darkBlack text-opacity-80 flex gap-2">
+          <li className="w-[239px] italic font-georgia font-normal text-sm sm:text-base text-darkBlack text-opacity-80 flex gap-2">
             <CheckListOrange /> Sexual abuse by doctors
           </li>
         </ul>

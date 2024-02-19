@@ -31,14 +31,14 @@ const Hero = () => {
           />
         </div>
         {/* RIGHT SECTION WITH TEXT */}
-        <div className="md:pt-11 ps-5">
+        <div className="md:pt-11 lg:ps-5">
           <div
             className="lg:px-8 md:px-6 py-6 lg:py-10 bg-white max-w-[715px] md:ms-[-85px]"
             data-aos="fade-left"
             data-aos-delay="300"
           >
             {/* TITLE */}
-            <h1 className="font-georgia font-normal md:text-xl sm:text-lg text-base text-darkBlack tracking-[7px]">
+            <h1 className="font-georgia font-normal md:text-xl sm:text-lg text-base pb-3 text-darkBlack tracking-[7px]">
               Manly Stewart & Finaldi
             </h1>
             {/* SUBTITLE */}

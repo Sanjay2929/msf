@@ -45,7 +45,7 @@ const SexualAbuse = () => {
             className="mySwiper"
             initialSlide={1} // Set the initial slide to the second slide
             breakpoints={{
-              320: {
+              300: {
                 slidesPerView: 1,
                 spaceBetween: 0,
               },

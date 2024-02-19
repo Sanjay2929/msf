@@ -12,7 +12,7 @@ const FirmNews = () => {
         Firm
       </h3>
       <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto md:pt-[180px] pt-24 md:pb-[154px] pb-24 relative z-10">
-        <h1 className="font-georgia font-normal md:text-xl text-lg text-darkBlack tracking-[6px] pb-3 text-center">
+        <h1 className="font-georgia font-normal md:text-2xl text-xl text-darkBlack tracking-[6px] pb-3 text-center">
           News Insights
         </h1>
         <h2 className="font-georgia lg:text-[40px] text-3xl text-bluePrimary font-normal leading-[110%] text-center md:pb-12 pb-8">
@@ -26,7 +26,8 @@ const FirmNews = () => {
                   key={index}
                   className="md:w-[208px] w-[160px] sm:h-[120px] flex justify-center items-center group"
                 >
-                  <Image className="group-hover:-translate-y-3 duration-300"
+                  <Image
+                    className="group-hover:-translate-y-3 duration-300"
                     width={value.widht}
                     height={value.height}
                     src={value.image}
