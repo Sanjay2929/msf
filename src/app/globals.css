@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+  /* GEORGIA FONT FAMILY  */
   @font-face {
     font-family: Georgia;
     src: url(/assets/fonts/Georgia.ttf);
@@ -10,6 +11,7 @@
   .font-georgia {
     font-family: Georgia;
   }
+  /* TEXTS ANIMATION SLIDE LEFT AND RIGHT   */
   .stewart_animation {
     animation: stewarthero 10s linear infinite;
   }
@@ -36,6 +38,7 @@
       transform: translateX(0);
     }
   }
+  /* OUTLINE OF TEXTS  */
   .hero_text_outline {
     text-shadow: -3px -3px 0 #192335, 3px -3px 0 #192335, -3px 3px 0 #192335,
       3px 3px 0 #192335;
@@ -68,10 +71,6 @@
   .slick-slide > div {
     display: flex;
   }
-  /* SEXUAL ABUSE  */
-  /* .sexual_abuse .slick-track {
-    margin-left: -25% !important;
-  } */
   /* FIRMS NEWS  */
   .news_animation {
     animation: slidenews 10s linear infinite;
@@ -84,6 +83,7 @@
       transform: translateX(calc(-1147px));
     }
   }
+  /* CALIFORNIA SEXUAL ABUSE SECTION */
   .swiper-slide-active .active_slide {
     opacity: 100% !important;
   }
@@ -129,6 +129,7 @@
   ::-webkit-scrollbar-thumb {
     background: #cd530f;
   }
+  /* SELECT OPTION ARROW REPLACE  */
   .select-wrapper {
     position: relative;
   }
@@ -140,6 +141,8 @@
     background-position: 100%;
     background-repeat: no-repeat;
   }
+
+  /* MEDIA QUARIES  */
   @media (max-width: 767.9px) {
     @keyframes slidenews {
       0% {
