@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="relative overflow-hidden">
       {/* CONTAINER DIV */}
-      <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto py-[150px] flex md:flex-row flex-col relative z-10">
+      <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto lg:py-[150px] pb-[150px] pt-[116px] flex md:flex-row flex-col relative z-10">
         {/* LEFT SECTION WITH IMAGES */}
         <div className="lg:min-w-[485px] sm:min-w-[370px]">
           {/* IMAGE 1 */}
