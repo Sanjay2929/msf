@@ -120,21 +120,21 @@ export const radioList = [
 // FOOTER LINKS
 export const footerLinks = [
   {
-    heading: "Links",
+    heading: "Quick Links",
     link: [
-      { title: "About", url: "" },
-      { title: "Attorneys", url: "" },
-      { title: "Practice Areas", url: "" },
-      { title: "Results", url: "" },
-      { title: "Media", url: "" },
-      { title: "Articles", url: "" },
+      { title: "About", url: "#about" },
+      { title: "Attorneys", url: "#attorneys" },
+      { title: "Practice Areas", url: "#practice" },
+      { title: "Results", url: "#results" },
+      { title: "Media", url: "#media" },
+      { title: "Articles", url: "#articles" },
     ],
   },
   {
-    heading: "Quick Links",
+    heading: "Links",
     link: [
-      { title: "Terms and Condition", url: "" },
-      { title: "Privacy policy", url: "" },
+      { title: "Terms and Condition", url: "/" },
+      { title: "Privacy policy", url: "/" },
     ],
   },
 ];
@@ -276,6 +276,9 @@ export const abuseCases = [
 
 // California Sexual Abuse Attorneys
 export const sexualAbuse = [
+  {
+    background: "bg-court-hammer2",
+  },
   {
     background: "bg-court-hammer",
   },

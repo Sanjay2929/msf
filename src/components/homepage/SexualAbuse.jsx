@@ -43,6 +43,7 @@ const SexualAbuse = () => {
             pagination={true}
             modules={[EffectCoverflow, Pagination]}
             className="mySwiper"
+            initialSlide={1} // Set the initial slide to the second slide
             breakpoints={{
               320: {
                 slidesPerView: 1,

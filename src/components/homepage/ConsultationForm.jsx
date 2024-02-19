@@ -51,7 +51,10 @@ const ConsultationForm = () => {
     });
   };
   return (
-    <div className="bg-[#FBF1EC] relative md:py-[62px] py-10 px-3">
+    <div
+      id="free_consultation"
+      className="bg-[#FBF1EC] relative md:py-[62px] py-10 px-3"
+    >
       <Image
         className="absolute right-0 top-0 lg:w-[35%] w-1/2 object-cover h-full z-0"
         width={4900}

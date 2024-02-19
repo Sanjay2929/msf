@@ -1,6 +1,7 @@
 import React from "react";
 import CustomButton from "../common/CustomButton";
 import Image from "next/image";
+import CustomLinkButton from "../common/CustumLinkButton";
 
 const SexualAbuseLawyers = () => {
   return (
@@ -35,7 +36,11 @@ const SexualAbuseLawyers = () => {
           at our firm help you today.
         </p>
         <div className="flex lg:justify-start justify-center">
-          <CustomButton title="Request A Free Consultation" style="" />
+          <CustomLinkButton
+            title="Request A Free Consultation"
+            link="#free_consultation"
+            style=""
+          />
         </div>
       </div>
       <div className="lg:w-auto max-w-[598px]" data-aos="fade-left">

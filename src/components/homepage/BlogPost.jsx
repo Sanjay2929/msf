@@ -53,7 +53,7 @@ const BlogPost = () => {
   };
 
   return (
-    <div className="relative">
+    <div id="articles" className="relative">
       {/* POST TITLE */}
       <h3 className="font-normal font-georgia text-9xl sm:text-[150px] lg:text-[220px] text-bluePrimary absolute finaldi_animation sm:!-translate-y-1/3 top-0 z-0 opacity-[4%] leading-[110%]">
         post
