@@ -7,7 +7,7 @@ const AllLiableParties = () => {
     <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto flex lg:flex-row flex-col lg:items-end xl:mt-[-180px] lg:-mt-12 md:pb-[85px] pb-10 items-center relative z-10">
       <div className="lg:w-1/2 lg:pe-2 max-w-[542px]" data-aos="fade-right">
         <Image
-          className="w-full"
+          className="w-full sm:max-w-[450px] max-w-[320px] lg:max-w-[550px]"
           width={542}
           height={764}
           src="/assets/images/all-liable-parties/two-lawyer.webp"
@@ -49,7 +49,7 @@ const AllLiableParties = () => {
             to occur
           </li>
         </ul>
-        <p className="font-georgia sm:text-base text-sm font-normal text-darkBlack pb-8 opacity-80 lg:text-start text-center">
+        <p className="font-georgia sm:text-base text-sm font-normal text-darkBlack sm:pb-8 pb-4 opacity-80 lg:text-start text-center">
           Any and all parties who had some direct or indirect part in your case
           deserve to be held accountable to the fullest extent.
         </p>

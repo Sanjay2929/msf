@@ -7,7 +7,7 @@ const AbuseCase = () => {
     // Container for AbuseCase section
     <div
       id="attorneys"
-      className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto md:pt-[150px] pt-24 flex md:flex-row flex-col items-center md:items-start relative z-10"
+      className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto md:pt-[154px] lg:pt-[178px] sm:pt-24 pt-14 flex md:flex-row flex-col items-center md:items-start relative z-10"
     >
       {/* Image container */}
       <div className="lg:min-w-[485px] sm:min-w-[370px]" data-aos="zoom-in">
@@ -21,7 +21,7 @@ const AbuseCase = () => {
         />
       </div>
       {/* Text container */}
-      <div className="lg:pt-11 pt-5 md:ps-5">
+      <div className="lg:pt-11 pt-5 md:ps-[23px]">
         {/* Content */}
         <div
           className="lg:px-[30px] md:px-6 py-4 lg:py-8 bg-white max-w-[715px] md:ms-[-85px]"
@@ -39,7 +39,7 @@ const AbuseCase = () => {
           </h2>
         </div>
         {/* Description */}
-        <p className="lg:pt-7 sm:pt-3 font-georgia sm:text-base text-sm font-normal text-darkBlack lg:pb-12 pb-8 opacity-80">
+        <p className="lg:pt-7 sm:pt-3 font-georgia sm:text-base text-sm font-normal text-darkBlack lg:pb-12 pb-8 opacity-80 max-w-[578px]">
           Give us a call regarding the potential referral of your sexual abuse
           case. We will provide, free-of charge, a thoughtful and reasoned
           evaluation of your potential or pending case.

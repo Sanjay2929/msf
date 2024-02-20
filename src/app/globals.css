@@ -4,16 +4,16 @@
 
 @layer components {
   /* GEORGIA FONT FAMILY  */
-  @font-face {
+  /* @font-face {
     font-family: Georgia;
     src: url(/assets/fonts/Georgia.ttf);
-  }
+  } */
   .font-georgia {
     font-family: Georgia;
   }
   /* TEXTS ANIMATION SLIDE LEFT AND RIGHT   */
   .stewart_animation {
-    animation: stewarthero 10s linear infinite;
+    animation: stewarthero 20s linear infinite;
   }
   @keyframes stewarthero {
     0% {
@@ -26,7 +26,7 @@
     }
   }
   .finaldi_animation {
-    animation: finaldihero 10s linear infinite;
+    animation: finaldihero 20s linear infinite;
   }
   @keyframes finaldihero {
     0% {
@@ -73,7 +73,7 @@
   }
   /* FIRMS NEWS  */
   .news_animation {
-    animation: slidenews 10s linear infinite;
+    animation: slidenews 20s linear infinite;
   }
   @keyframes slidenews {
     0% {
@@ -111,6 +111,7 @@
   }
   .mySwiper .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: -70px !important;
+    z-index: 20;
   }
 
   /* SCROLL BAR MODIFICATION  */
@@ -141,11 +142,28 @@
     background-position: 100%;
     background-repeat: no-repeat;
   }
+  /* WHY CHOOSE US SLIDER  */
 
   /* MEDIA QUARIES  */
+  @media (max-width: 1279.9px) {
+    .choose_us_slider .slick-track {
+      margin-left: -25% !important;
+    }
+  }
   @media (max-width: 1023.9px) {
     .custum_hidden {
       overflow: hidden;
+    }
+    .choose_us_slider .slick-track {
+      margin-left: 0 !important;
+    }
+    .mySwiper .swiper-pagination-bullet {
+      width: 10px !important;
+      height: 10px !important;
+    }
+
+    .mySwiper .swiper-pagination .swiper-pagination-bullet-active {
+      width: 25px !important;
     }
   }
   @media (max-width: 767.9px) {
@@ -159,6 +177,9 @@
     }
     .mySwiper .swiper-pagination-bullets.swiper-pagination-horizontal {
       bottom: -40px !important;
+    }
+    .choose_us_slider .slick-track {
+      margin-left: -25% !important;
     }
   }
   @media (max-width: 500px) {
@@ -175,6 +196,12 @@
     .choose_us_slide div {
       background-color: #192335 !important;
       gap: 19px;
+    }
+    .choose_us_slider .slick-track {
+      margin-left: 0 !important;
+    }
+    .choose_us_slide svg path {
+      fill: white;
     }
   }
 }

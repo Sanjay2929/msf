@@ -29,10 +29,10 @@ const WhyChooseUs = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1279,
+        breakpoint: 1279.9,
         settings: {
           slidesToShow: 2,
-          centerMode: false,
+          centerMode: true,
         },
       },
       {
@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
         settings: {
           slidesToShow: 2,
           autoplay: true,
-          centerMode: false,
+          centerMode: true,
           autoplaySpeed: 3000,
         },
       },
@@ -57,6 +57,7 @@ const WhyChooseUs = () => {
           slidesToShow: 1,
           autoplay: true,
           autoplaySpeed: 3000,
+          centerMode: false,
         },
       },
     ],
@@ -65,7 +66,7 @@ const WhyChooseUs = () => {
   return (
     <div
       id="about"
-      className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto lg:py-[154px] py-[100px] flex gap-[31px] lg:flex-row flex-col"
+      className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto lg:py-[154px] sm:py-[100px] py-14 flex gap-[31px] lg:flex-row flex-col"
     >
       {/* LEFT SECTION */}
       <div className="lg:w-[260px]" data-aos="fade-right">
@@ -101,7 +102,7 @@ const WhyChooseUs = () => {
         <Slider
           {...settings}
           ref={sliderRef}
-          className=" lg:h-[448px]  md:h-[420px] sm:h-[365px] h-[385px] max-[500px]:h-auto overflow-y-hidden"
+          className=" lg:h-[448px]  md:h-[420px] sm:h-[365px] h-[385px] max-[500px]:h-auto overflow-y-hidden choose_us_slider"
         >
           {/* MAP THROUGH EXPERTISE */}
           {chooseUsExpertise.map((value, index) => {

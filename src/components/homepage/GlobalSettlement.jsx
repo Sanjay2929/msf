@@ -1,14 +1,22 @@
 import React from "react";
 import { abuseCases } from "../common/Helper";
+import Image from "next/image";
 
 const GlobalSettlement = () => {
   return (
     // Container for GlobalSettlement section
-    <div id="practice" className="md:pt-[150px] pt-24">
+    <div id="practice" className="md:pt-[150px] sm:pt-24 pt-14">
       <div className="bg-extraLightBlue md:pt-[64px] pt-8">
         <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto">
-          <div className="max-w-[558px]" data-aos="fade-right">
-            <h2 className="font-georgia lg:text-[40px] text-3xl font-normal text-bluePrimary md:pb-7 pb-4">
+          <div className="max-w-[550px] relative" data-aos="fade-right">
+            <Image
+              width={91}
+              height={85}
+              className="absolute top-2 xl:block hidden  left-0 -translate-x-full -translate-y-2/3 w-[91px] h-auto z-10 object-contain"
+              src="/assets/images/common/comma.png"
+              alt="comma"
+            />
+            <h2 className="font-georgia lg:text-[40px] text-3xl font-normal  text-bluePrimary md:pb-7 pb-4">
               Global <span className="text-orange">Settlement</span>
             </h2>
             <p className="font-georgia sm:text-base text-sm font-normal text-darkBlack opacity-80 md:pb-[38px] pb-8">

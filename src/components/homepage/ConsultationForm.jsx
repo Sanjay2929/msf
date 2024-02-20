@@ -134,7 +134,7 @@ const ConsultationForm = () => {
               }}
             />
           </div>
-          <div className="w-full py-[30px]">
+          <div className="w-full py-7">
             <h3 className="font-georgia font-normal sm:text-base text-sm text-darkblack block pb-2.5">
               City
             </h3>
@@ -143,7 +143,7 @@ const ConsultationForm = () => {
               className="w-full md:py-[17px] py-3 md:px-4 px-3 bg-white text-base rounded font-georgia font-normal text-darkBlack text-opacity-20 outline-none border border-darkBlack border-opacity-20"
               id="selectOption"
               name="selectOption"
-              value={consultationForm.city} // Set the value prop here
+              value={consultationForm.city}
               onChange={(e) =>
                 setConsultationForm({
                   ...consultationForm,
@@ -151,25 +151,24 @@ const ConsultationForm = () => {
                 })
               }
             >
-              <option
-                disabled
-                value="please_select" // Set value prop instead of selected
-                className="cursor-pointer w-full"
-              >
-                Please select
-              </option>
               {cityNames.map((option) => (
                 <option
                   className="cursor-pointer w-full"
                   key={option.city}
                   value={option.city}
+                  style={{
+                    color:
+                      option.city === consultationForm.city
+                        ? "text-darkBlack !opacity-100" // Change to your dark color value
+                        : "", // Change to your light color value
+                  }}
                 >
                   {option.city}
                 </option>
               ))}
             </select>
           </div>
-          <div className="custom-radio">
+          <div className="custom-radio px-[14.5px]">
             <h3 className="font-georgia font-bold sm:text-xl text-lg text-darkBlack pb-6">
               Institution Involved <span className="text-lightBlue">*</span>
             </h3>
@@ -193,10 +192,10 @@ const ConsultationForm = () => {
                 inquiry: value, // Corrected property name and use the extracted value
               });
             }}
-            className="p-4 h-[135px] rounded resize-none border border-darkBlack border-opacity-20 w-full outline-none placeholder:text-darkBlack placeholder:opacity-20"
+            className="p-4 h-[135px] rounded text-darkBlack text-opacity-20 resize-none border border-darkBlack border-opacity-20 w-full outline-none placeholder:text-darkBlack placeholder:opacity-20"
             placeholder="Reason for inquiry"
           />
-          <h3 className="text-center text-orange text-xl font-georgia font-bold py-7 pb-2.5">
+          <h3 className="text-center text-orange text-xl font-georgia font-bold py-5 pb-2.5">
             Disclaimer*
           </h3>
           <p className="font-georgia font-normal md:text-base text-sm text-center text-darkBlack opacity-80 pb-6">

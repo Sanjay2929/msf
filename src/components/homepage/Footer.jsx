@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto">
         <div className="flex justify-between flex-wrap">
           <div className="lg:w-[349px] w-full">
-            <Link href="/">
+            <Link className="max-w-[56px] inline-block" href="/">
               <Image
                 width={56}
                 height={56}

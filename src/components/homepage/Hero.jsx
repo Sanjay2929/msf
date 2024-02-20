@@ -5,7 +5,7 @@ import CustomButton from "../common/CustomButton";
 
 const Hero = () => {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden mb-2.5">
       {/* CONTAINER DIV */}
       <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto lg:py-[150px] pb-[150px] pt-[116px] flex md:flex-row flex-col relative z-10">
         {/* LEFT SECTION WITH IMAGES */}
@@ -21,7 +21,7 @@ const Hero = () => {
           />
           {/* IMAGE 2 */}
           <Image
-            className="lg:w-[331px] w-[250px] mt-[-122px]"
+            className="lg:w-[331px] w-[250px] mt-[-122px] md:ms-0 sm:ms-[290px]"
             data-aos="fade-up"
             data-aos-delay="600"
             width={331}
@@ -31,7 +31,7 @@ const Hero = () => {
           />
         </div>
         {/* RIGHT SECTION WITH TEXT */}
-        <div className="md:pt-11 lg:ps-5">
+        <div className="md:pt-11 md:ps-5">
           <div
             className="lg:px-8 md:px-6 py-6 lg:py-10 bg-white max-w-[715px] md:ms-[-85px]"
             data-aos="fade-left"
@@ -42,7 +42,7 @@ const Hero = () => {
               Manly Stewart & Finaldi
             </h1>
             {/* SUBTITLE */}
-            <h2 className="font-georgia xl:text-[60px] lg:text-5xl sm:text-4xl text-3xl text-bluePrimary font-normal leading-[110%]">
+            <h2 className="font-georgia xl:text-[60px] lg:text-5xl sm:text-4xl text-3xl text-bluePrimary font-normal !leading-[110%]">
               America's Premier Law Firm for{" "}
               <span className="text-orange">Sexual Abuse Cases</span>
             </h2>
@@ -63,7 +63,7 @@ const Hero = () => {
         Stewart
       </h3>
       {/* FINALDI TITLE */}
-      <h3 className="font-normal font-georgia text-9xl sm:text-[150px] lg:text-[220px] text-white absolute finaldi_animation -bottom-3 z-0 leading-none hero_text_outline opacity-5">
+      <h3 className="font-normal font-georgia text-9xl sm:text-[150px] lg:text-[200px] text-white absolute finaldi_animation -bottom-3 z-0 leading-none hero_text_outline opacity-5">
         Finaldi
       </h3>
     </div>

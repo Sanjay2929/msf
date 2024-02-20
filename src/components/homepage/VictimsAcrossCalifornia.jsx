@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const VictimsAcrossCalifornia = () => {
   return (
-    <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto flex lg:flex-row flex-col-reverse items-center lg:items-start relative z-10">
+    <div className="container xl:max-w-[1140px] px-3 xl:px-0 mx-auto flex lg:flex-row flex-col-reverse items-center lg:items-start relative z-10 md:pb-0 pb-8">
       <div className="lg:w-1/2 lg:pt-0 pt-8" data-aos="fade-right">
         {/* Title */}
-        <h2 className="font-georgia font-normal md:text-xl text-lg text-darkBlack tracking-[6px] pb-3 lg:text-start text-center">
+        <h2 className="font-georgia font-normal md:text-xl text-lg text-darkBlack tracking-[6px] pb-4 lg:text-start text-center">
           Representation for
         </h2>
         {/* Subtitle */}
@@ -32,7 +32,7 @@ const VictimsAcrossCalifornia = () => {
           <li className="w-[239px] italic font-georgia font-normal text-sm sm:text-base text-orange text-opacity-80 flex gap-2">
             <CheckListOrange /> Abuse occurring in sports organizations
           </li>
-          <li className="w-[239px] italic font-georgia font-normal text-sm sm:text-base text-darkBlack text-opacity-80 flex gap-2">
+          <li className="w-[239px] italic font-georgia font-normal text-sm sm:text-base text-darkBlack text-opacity-80 flex gap-2 xl:pe-8">
             <CheckListOrange /> Abuse at youth group and summer camps
           </li>
           <li className="w-[239px] italic font-georgia font-normal text-sm sm:text-base text-darkBlack text-opacity-80 flex gap-2">
@@ -53,7 +53,7 @@ const VictimsAcrossCalifornia = () => {
           </li>
         </ul>
         {/* Conclusion */}
-        <p className=" font-georgia sm:text-base text-sm font-normal text-darkBlack lg:pb-8 md:pb-20 pb-10 opacity-80 lg:text-start text-center">
+        <p className=" font-georgia sm:text-base text-sm font-normal text-darkBlack lg:pb-8 md:pb-20 sm:pb-10 pb-6  opacity-80 lg:text-start text-center">
           We are passionate about seeking justice for any and all survivors of
           sexual assault and abuse.
         </p>
@@ -61,7 +61,7 @@ const VictimsAcrossCalifornia = () => {
       {/* Right side image */}
       <div className="lg:w-1/2 lg:ps-6 max-w-[542px]" data-aos="fade-left">
         <Image
-          className="w-full"
+          className="w-full sm:max-w-[450px] max-w-[320px] lg:max-w-[550px] "
           width={542}
           height={753}
           src="/assets/images/victims-across-california/lawyer.webp"

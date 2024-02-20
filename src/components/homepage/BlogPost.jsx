@@ -71,8 +71,8 @@ const BlogPost = () => {
         <h2 className="font-georgia lg:text-[40px] text-3xl text-bluePrimary font-normal text-center leading-[120%] md:pb-12 pb-8">
           More Recent <span className="text-orange">Blog Post</span>
         </h2>
-        <div className="relative">
-          <div className="absolute xl:-bottom-10 bottom-6 right-3 w-[600%] h-[317px] bg-extraLightBlue"></div>
+        <div className="relative max-[550px]:max-w-[400px] mx-auto xl:-mx-3">
+          <div className="absolute xl:-bottom-10 bottom-14 right-3 w-[600%] h-[317px] bg-extraLightBlue"></div>
           {/* SLIDER */}
           <Slider {...settings} ref={sliderRef}>
             {/* MAP THROUGH BLOG POSTS */}

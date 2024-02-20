@@ -13,7 +13,7 @@ import { sexualAbuse } from "../common/Helper";
 
 const SexualAbuse = () => {
   return (
-    <div className="md:pt-[154px] pt-24 psm:b-[62px] pb-10">
+    <div className="xl:pt-[195px] md:pt-[154px] sm:pt-24 pt-14 sm:pb-[62px] pb-10">
       <div className="px-3 xl:px-0 mx-auto">
         {/* Title */}
         <h2 className="text-center font-georgia font-normal md:text-2xl text-xl tracking-[7.2px] text-darkBlack pb-4 leading-[120%]">

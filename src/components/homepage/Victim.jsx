@@ -33,7 +33,7 @@ const Victim = () => {
           data-aos="fade-up"
         >
           {/* CASE 1 */}
-          <div className="relative max-w-[458px]">
+          <div className="relative sm:max-w-[500px] max-w-[400px]">
             <Image
               className="w-full"
               width={458}
@@ -54,7 +54,7 @@ const Victim = () => {
           </div>
           {/* CASE 2 */}
           <div
-            className="relative max-w-[458px]"
+            className="relative sm:max-w-[500px] max-w-[400px]"
             data-aos="fade-up"
             data-aos-delay="300"
           >
