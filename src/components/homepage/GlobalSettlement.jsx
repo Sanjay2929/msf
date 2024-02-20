@@ -19,7 +19,7 @@ const GlobalSettlement = () => {
             <h2 className="font-georgia lg:text-[40px] text-3xl font-normal  text-bluePrimary md:pb-7 pb-4">
               Global <span className="text-orange">Settlement</span>
             </h2>
-            <p className="font-georgia sm:text-base text-sm font-normal text-darkBlack opacity-80 md:pb-[38px] pb-8">
+            <p className="font-georgia sm:text-base text-sm font-normal text-darkBlack opacity-80 md:pb-[38px] pb-4">
               $216 million global settlement of 110 separate sexual abuse claims
               against the Society of Jesus, Oregon Province (2007, 2011).
               Various Superior Courts in the State of Alaska and U.S. Bankruptcy
