@@ -135,9 +135,12 @@ const ConsultationForm = () => {
             />
           </div>
           <div className="w-full py-7">
-            <h3 className="font-georgia font-normal sm:text-base text-sm text-darkblack block pb-2.5">
+            <lebel
+              htmlFor="selectOption"
+              className="font-georgia font-normal sm:text-base text-sm text-darkblack block pb-2.5"
+            >
               City
-            </h3>
+            </lebel>
             <select
               required
               className="w-full md:py-[17px] py-3 md:px-4 px-3 bg-white text-base rounded font-georgia font-normal text-darkBlack text-opacity-20 outline-none border border-darkBlack border-opacity-20"

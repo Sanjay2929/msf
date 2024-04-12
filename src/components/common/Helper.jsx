@@ -142,22 +142,27 @@ export const footerLinks = [
 // Social Links
 export const socialmediaLinks = [
   {
+    name: "facebook",
     icon: <FaceBook />,
     url: "https://www.facebook.com",
   },
   {
+    name: "instagram",
     icon: <InstaGram />,
     url: "https://www.instagram.com",
   },
   {
+    name: "twitter",
     icon: <Twitter />,
     url: "https://www.twitter.com",
   },
   {
+    name: "linkedin",
     icon: <LinkedIn />,
     url: "https://www.linkedin.com",
   },
   {
+    name: "youtube",
     icon: <YouTube />,
     url: "https://www.youtube.com",
   },
